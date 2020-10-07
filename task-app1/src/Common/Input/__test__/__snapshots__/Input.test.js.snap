@@ -1,0 +1,10 @@
+exports[`test matches snapshot 1`] = `
+<input
+  className="input-box undefined"
+  data-testid="input"
+  name={undefined}
+  onChange={undefined}
+  placeholder={undefined}
+  type={undefined}
+  value={undefined} />
+`;

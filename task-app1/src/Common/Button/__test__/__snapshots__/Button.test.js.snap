@@ -1,0 +1,8 @@
+exports[`test matches snapshot 1`] = `
+<div
+  className="container undefined"
+  data-testid="button"
+  onClick={undefined}>
+  click me
+</div>
+`;

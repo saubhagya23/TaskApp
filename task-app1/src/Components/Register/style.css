@@ -1,0 +1,19 @@
+
+.register-form {
+  box-sizing: border-box;
+  background-image: radial-gradient(white, yellow, green);
+  margin: 0 200px;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-inputStyle {
+  height: 30px;
+  width: 240px;
+  margin-bottom: 20px;
+}
+
+.register-btn-style {
+  margin: 20px;
+}

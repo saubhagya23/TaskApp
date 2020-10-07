@@ -1,0 +1,32 @@
+.mainContainer {
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer > span {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.logo-image {
+  width: 100px;
+  height: auto;
+}
+
+.header-btn {
+  display: flex;
+  height: 60px;
+}
+
+.login-btn-style{
+  /* height: 60px; */
+}
