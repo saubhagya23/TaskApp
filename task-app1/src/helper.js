@@ -1,4 +1,4 @@
-require("jest-localstorage-mock");
+// require("jest-localstorage-mock");
 
 export const setItem = (attribute, value) => {
   localStorage.setItem(attribute, value);

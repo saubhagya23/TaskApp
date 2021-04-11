@@ -1,11 +1,11 @@
-import React from 'react';
-import { render as rtlRender } from '@testing-library/react';
+import React from 'react'
+import { render as rtlRender } from '@testing-library/react'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 // Import your own reducer
-import reducer from '../reducers';
+import reducer from '../reducers'
 
-function render(
+function render (
   ui,
   {
     initialState,
@@ -13,7 +13,7 @@ function render(
     ...renderOptions
   } = {}
 ) {
-  function Wrapper({ children }) {
+  function Wrapper ({ children }) { // eslint-disable-line react/prop-types
     return <Provider store={store}>{children}</Provider>
   }
   return rtlRender(ui, { wrapper: Wrapper, ...renderOptions })
